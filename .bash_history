@@ -93,3 +93,10 @@ git add argocd-helm-gcp
 git clone https://github.com/apizzulli/argocd-helm-gcp.git
 git status
 git add ,
+git add .
+git commit -m "first commit
+git commit -m "first commit"
+git push
+git remote add https://github.com/apizzulli/argocd-helm-gcp.git
+git remote add argocd-repo https://github.com/apizzulli/argocd-helm-gcp.git
+git status
