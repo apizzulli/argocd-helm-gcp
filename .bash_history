@@ -77,3 +77,19 @@ git push argocd-repo
 git push --set-upstream argocd-repo main
 git push --set-upstream argocd-repo master
 git status
+git add .
+git commit -m "added apps folder"
+git push
+git status
+git add argocd-gcp-helm
+git push
+cd ~
+git clone git@github.com:apizzulli/argocd-helm-gcp.git
+$ ssh-keygen -t ed25519 -C "antpizzulli11@gmail.com"
+ssh-keygen -t ed25519 -C "antpizzulli11@gmail.com"
+git clone https://github.com/apizzulli/argocd-helm-gcp.git
+git status
+git add argocd-helm-gcp
+git clone https://github.com/apizzulli/argocd-helm-gcp.git
+git status
+git add ,
