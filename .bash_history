@@ -65,3 +65,15 @@ git pull
 git pull origin main
 git pull argocd-repo
 git status
+git add .
+git commit -m "first commit"
+git config --global user.email "antpizzulli11@gmail.com"
+git commit -m "first commit"
+git config user.email "antpizzulli11@gmail.com"
+git config user.name "Anthony"
+git commit -m "first commit"
+git push
+git push argocd-repo
+git push --set-upstream argocd-repo main
+git push --set-upstream argocd-repo master
+git status
